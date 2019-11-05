@@ -21,6 +21,7 @@ export const ScreenContainer = styled.div`
 export const DesktopArea = styled.div`
   background-color: ${backgroundColor};
   flex: 1;
+  flex-direction: column;
 `
 
 export const ResetStyles = createGlobalStyle`

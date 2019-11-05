@@ -30,7 +30,16 @@ module.exports = {
       { argsIgnorePattern: '^_', ignoreRestSiblings: true }
     ],
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
-    'semi': ['error', 'never']
+    'semi': ['error', 'never'],
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
+      }
+    ]
   },
   env: {
     browser: true,

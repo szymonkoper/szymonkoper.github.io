@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import styled, { createGlobalStyle, ThemeProvider } from "styled-components"
 import { AppBar, Button, Cutout, Toolbar, themes, reset } from "react95"
 import { backgroundColor } from './constants/colors'
 import startImg from './assets/windows-flag.png'
 
 const AppContainer = styled.div`
-  min-width: 100vh;
-  min-height: 100vh;
   display: flex;
+  min-height: 100vh;
+  min-width: 100vh;
 `
 
 const StartImage = styled.img.attrs(() => ({
@@ -18,8 +18,8 @@ const StartImage = styled.img.attrs(() => ({
 
 const ScreenContainer = styled.div`
   display: flex;
-  flex-direction: column;
   flex: 1;
+  flex-direction: column;
 `
 
 const DesktopArea = styled.div`
@@ -56,7 +56,7 @@ function App() {
                 <Button
                   active={isStartOpen}
                   onClick={() => {
-                    setIsStartOpen(!isStartOpen);
+                    setIsStartOpen(!isStartOpen)
                   }}
                 >
                   <StartImage /> Start
@@ -64,24 +64,15 @@ function App() {
               </div>
 
               <ToolbarClock />
-            </Toolbar>
+                </Toolbar>
           </AppBar>
+
+
+
         </ScreenContainer>
       </ThemeProvider>
-      {/* <p style={{ flex: 1 }}>asd</p> */}
-      {/* <Header>
-        <ReactImage />
-        <p>Just some changes.</p>
-        <ReactLink
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </ReactLink>
-      </Header> */}
     </AppContainer>
   )
 }
 
-export default App;
+export default App

@@ -31,5 +31,10 @@ module.exports = {
     ],
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
     'semi': ['error', 'never']
+  },
+  env: {
+    browser: true,
+    node: true,
+    jest: true
   }
 }

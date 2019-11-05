@@ -1,1 +1,3 @@
-export const backgroundColor = '#282c34';
+export const teal = '#008080';
+
+export const backgroundColor = teal;

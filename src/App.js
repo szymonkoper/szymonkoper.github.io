@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import { backgroundColor } from './constants/colors'
 import logo from './logo.svg';
 
 const AppContainer = styled.div``;
 
 const Header = styled.header`
-  background-color: #282c34;
+  background-color: ${backgroundColor};
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "szymonkoper.github.io/static/css/main.02fbf6b1.chunk.css",
-    "main.js": "szymonkoper.github.io/static/js/main.27816e5c.chunk.js",
-    "main.js.map": "szymonkoper.github.io/static/js/main.27816e5c.chunk.js.map",
-    "runtime-main.js": "szymonkoper.github.io/static/js/runtime-main.56efc386.js",
-    "runtime-main.js.map": "szymonkoper.github.io/static/js/runtime-main.56efc386.js.map",
-    "static/js/2.d56e8ab8.chunk.js": "szymonkoper.github.io/static/js/2.d56e8ab8.chunk.js",
-    "static/js/2.d56e8ab8.chunk.js.map": "szymonkoper.github.io/static/js/2.d56e8ab8.chunk.js.map",
-    "index.html": "szymonkoper.github.io/index.html",
-    "precache-manifest.bfdcfd21493177005e348b7a4e2704a9.js": "szymonkoper.github.io/precache-manifest.bfdcfd21493177005e348b7a4e2704a9.js",
-    "service-worker.js": "szymonkoper.github.io/service-worker.js",
-    "static/css/main.02fbf6b1.chunk.css.map": "szymonkoper.github.io/static/css/main.02fbf6b1.chunk.css.map"
+    "main.css": "/static/css/main.02fbf6b1.chunk.css",
+    "main.js": "/static/js/main.1c172b32.chunk.js",
+    "main.js.map": "/static/js/main.1c172b32.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b3d47858.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b3d47858.js.map",
+    "static/js/2.93ed20ee.chunk.js": "/static/js/2.93ed20ee.chunk.js",
+    "static/js/2.93ed20ee.chunk.js.map": "/static/js/2.93ed20ee.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b8f1d56734c32801028a5103e8538ea1.js": "/precache-manifest.b8f1d56734c32801028a5103e8538ea1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.02fbf6b1.chunk.css.map": "/static/css/main.02fbf6b1.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.56efc386.js",
-    "static/js/2.d56e8ab8.chunk.js",
+    "static/js/runtime-main.b3d47858.js",
+    "static/js/2.93ed20ee.chunk.js",
     "static/css/main.02fbf6b1.chunk.css",
-    "static/js/main.27816e5c.chunk.js"
+    "static/js/main.1c172b32.chunk.js"
   ]
 }
